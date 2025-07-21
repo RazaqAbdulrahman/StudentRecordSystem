@@ -1,14 +1,20 @@
 package service;
 
 import model.Student;
-import java.util.ArrayList;
+import util.FileHelper;
 import java.util.List;
 
 public class StudentService {
-    private List<Student> studentList = new ArrayList<>();
+
+    private List<Student> studentList;
+
+    public StudentService() {
+        studentList = FileHelper.loadStudents();
+    }
 
     public void addStudent(Student student) {
-        studentList.add(student);
+        studentList.add(student); // add to list
+        FileHelper.saveStudents(studentList); // save updated list to file
         System.out.println("Student added successfully.");
     }
 
@@ -20,7 +26,8 @@ public class StudentService {
 
         for (Student student : studentList) {
             student.printBioData();
-            System.out.println("-----------------------");
+            student.printCourses();
+            System.out.println("----------------------------");
         }
     }
 
@@ -34,16 +41,18 @@ public class StudentService {
     }
 
     public boolean deleteStudent(String matricNumber) {
-        Student found = findByMatricNumber(matricNumber);
-        if (found != null) {
-            studentList.remove(found);
+        Student foundStudent = findByMatricNumber(matricNumber);
+
+        if (foundStudent != null) {
+            studentList.remove(foundStudent); // remove from list
+            FileHelper.saveStudents(studentList); // save updated list
             return true;
         }
         return false;
     }
+
     public List<Student> getStudentList() {
         return studentList;
     }
-
-
 }
+

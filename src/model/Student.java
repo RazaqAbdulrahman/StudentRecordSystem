@@ -33,12 +33,10 @@ public class Student {
         return courses;
     }
 
-    // Add a course
     public void enrollInCourse(Course course) {
         courses.add(course);
     }
 
-    // Set grade for a course
     public boolean updateGrade(String courseCode, String grade) {
         for (Course course : courses) {
             if (course.getCourseCode().equalsIgnoreCase(courseCode)) {
@@ -46,10 +44,9 @@ public class Student {
                 return true;
             }
         }
-        return false; // Course not found
+        return false;
     }
 
-    // Optional: Print all courses
     public void printCourses() {
         if (courses.isEmpty()) {
             System.out.println("No courses enrolled.");
