@@ -1,20 +1,20 @@
 package service;
 
-import model.Student;
 import util.FileHelper;
+import model.Student;
+
 import java.util.List;
 
 public class StudentService {
-
     private List<Student> studentList;
 
     public StudentService() {
-        studentList = FileHelper.loadStudents();
+        this.studentList = FileHelper.loadStudentsFromFile();
     }
 
     public void addStudent(Student student) {
-        studentList.add(student); // add to list
-        FileHelper.saveStudents(studentList); // save updated list to file
+        studentList.add(student);
+        FileHelper.saveStudentsToFile(studentList);
         System.out.println("Student added successfully.");
     }
 
@@ -26,8 +26,7 @@ public class StudentService {
 
         for (Student student : studentList) {
             student.printBioData();
-            student.printCourses();
-            System.out.println("----------------------------");
+            System.out.println("-----------------------");
         }
     }
 
@@ -41,11 +40,10 @@ public class StudentService {
     }
 
     public boolean deleteStudent(String matricNumber) {
-        Student foundStudent = findByMatricNumber(matricNumber);
-
-        if (foundStudent != null) {
-            studentList.remove(foundStudent); // remove from list
-            FileHelper.saveStudents(studentList); // save updated list
+        Student found = findByMatricNumber(matricNumber);
+        if (found != null) {
+            studentList.remove(found);
+            FileHelper.saveStudentsToFile(studentList);
             return true;
         }
         return false;
@@ -54,5 +52,10 @@ public class StudentService {
     public List<Student> getStudentList() {
         return studentList;
     }
+
+    public void saveChanges() {
+        FileHelper.saveStudentsToFile(studentList);
+    }
 }
+
 

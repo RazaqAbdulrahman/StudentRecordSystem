@@ -6,41 +6,33 @@ import service.GPAService;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         StudentService studentService = new StudentService();
         GPAService gpaService = new GPAService();
 
-        boolean running = true;
-
-        System.out.println("Welcome to the Student Record Management System!");
-
-        while (running) {
-            System.out.println("\n--- Main Menu ---");
-            System.out.println("1. Add a Student");
+        while (true) {
+            System.out.println("\n--- Student Record Management System ---");
+            System.out.println("1. Add New Student");
             System.out.println("2. View All Students");
-            System.out.println("3. Find Student by Matric Number");
-            System.out.println("4. Delete a Student");
-            System.out.println("5. Enroll Student in Course");
-            System.out.println("6. Update Course Grade");
-            System.out.println("7. Calculate GPA");
-            System.out.println("8. Exit");
+            System.out.println("3. Delete Student");
+            System.out.println("4. Update Grade");
+            System.out.println("5. Calculate GPA");
+            System.out.println("6. Enroll In Course");
+            System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+            int choice = input.nextInt();
+            input.nextLine();
 
             switch (choice) {
                 case 1:
-                    System.out.print("Enter student name: ");
-                    String name = scanner.nextLine();
-
+                    System.out.print("Enter name: ");
+                    String name = input.nextLine();
                     System.out.print("Enter matric number: ");
-                    String matric = scanner.nextLine();
-
+                    String matric = input.nextLine();
                     System.out.print("Enter department: ");
-                    String dept = scanner.nextLine();
+                    String dept = input.nextLine();
 
                     Student student = new Student(name, matric, dept);
                     studentService.addStudent(student);
@@ -51,66 +43,31 @@ public class Main {
                     break;
 
                 case 3:
-                    System.out.print("Enter matric number to search: ");
-                    String searchMatric = scanner.nextLine();
-                    Student found = studentService.findByMatricNumber(searchMatric);
-                    if (found != null) {
-                        found.printBioData();
-                        found.printCourses();
+                    System.out.print("Enter matric number to delete: ");
+                    String deleteMat = input.nextLine();
+                    boolean deleted = studentService.deleteStudent(deleteMat);
+                    if (deleted) {
+                        System.out.println("Student deleted successfully.");
                     } else {
                         System.out.println("Student not found.");
                     }
                     break;
 
                 case 4:
-                    System.out.print("Enter matric number to delete: ");
-                    String deleteMatric = scanner.nextLine();
-                    boolean removed = studentService.deleteStudent(deleteMatric);
-                    if (removed) {
-                        System.out.println("Student deleted.");
-                    } else {
-                        System.out.println("Student not found.");
-                    }
-                    break;
-
-                case 5:
-                    System.out.print("Enter matric number of student to enroll: ");
-                    String matricEnroll = scanner.nextLine();
-                    Student enrollStudent = studentService.findByMatricNumber(matricEnroll);
-                    if (enrollStudent != null) {
-                        System.out.print("Enter course code: ");
-                        String code = scanner.nextLine();
-
-                        System.out.print("Enter course title: ");
-                        String title = scanner.nextLine();
-
-                        System.out.print("Enter course unit: ");
-                        int unit = scanner.nextInt();
-                        scanner.nextLine();
-
-                        Course course = new Course(code, title, unit, "");
-                        enrollStudent.enrollInCourse(course);
-                        System.out.println("Course enrolled.");
-                    } else {
-                        System.out.println("Student not found.");
-                    }
-                    break;
-
-                case 6:
                     System.out.print("Enter matric number: ");
-                    String mNumber = scanner.nextLine();
-                    Student gradeStudent = studentService.findByMatricNumber(mNumber);
+                    String matUpdate = input.nextLine();
+                    Student updateStudent = studentService.findByMatricNumber(matUpdate);
 
-                    if (gradeStudent != null) {
-                        System.out.print("Enter course code to update grade: ");
-                        String courseCode = scanner.nextLine();
+                    if (updateStudent != null) {
+                        System.out.print("Enter course code to update: ");
+                        String updateCode = input.nextLine();
+                        System.out.print("Enter new grade: ");
+                        String newGrade = input.nextLine();
 
-                        System.out.print("Enter grade (A-F): ");
-                        String grade = scanner.nextLine();
-
-                        boolean updated = gradeStudent.updateGrade(courseCode, grade);
+                        boolean updated = updateStudent.updateGrade(updateCode, newGrade);
                         if (updated) {
-                            System.out.println("Grade updated.");
+                            studentService.saveChanges();
+                            System.out.println("Grade updated successfully.");
                         } else {
                             System.out.println("Course not found.");
                         }
@@ -119,30 +76,50 @@ public class Main {
                     }
                     break;
 
-                case 7:
+                case 5:
                     System.out.print("Enter matric number: ");
-                    String gpaMatric = scanner.nextLine();
-                    Student gpaStudent = studentService.findByMatricNumber(gpaMatric);
-                    if (gpaStudent != null) {
-                        double gpa = gpaService.calculateGPA(gpaStudent);
-                        String classification = gpaService.classifyGPA(gpa);
-                        System.out.println("GPA: " + gpa);
-                        System.out.println("Classification: " + classification);
+                    String gpaMatric = input.nextLine();
+
+                    double gpa = gpaService.calculateGPA(gpaMatric);
+                    String classif = gpaService.classifyGPA(gpa);
+                    System.out.printf("GPA: %.2f - Classification: %s%n", gpa, classif);
+                    break;
+
+                case 6:
+                    System.out.print("Enter matric number: ");
+                    String matEnroll = input.nextLine();
+                    Student enrollStudent = studentService.findByMatricNumber(matEnroll);
+
+                    if (enrollStudent != null) {
+                        System.out.print("Enter course code: ");
+                        String code = input.nextLine();
+                        System.out.print("Enter course title: ");
+                        String title = input.nextLine();
+                        System.out.print("Enter course unit: ");
+                        int unit = input.nextInt();
+                        input.nextLine(); // clear newline
+                        System.out.print("Enter course grade: ");
+                        String grade = input.nextLine();
+
+                        Course course = new Course(code, title, unit, grade);
+                        enrollStudent.enrollInCourse(course);
+                        studentService.saveChanges();
+                        System.out.println("Course added successfully.");
                     } else {
                         System.out.println("Student not found.");
                     }
                     break;
 
-                case 8:
-                    System.out.println("Goodbye!");
-                    running = false;
-                    break;
+
+                case 0:
+                    System.out.println("Exiting program. Goodbye!");
+                    return;
 
                 default:
-                    System.out.println("Invalid choice. Please try again.");
+                    System.out.println("Invalid option. Please try again.");
             }
         }
-
-        scanner.close();
     }
 }
+
+
