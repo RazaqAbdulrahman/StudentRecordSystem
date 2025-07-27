@@ -2,6 +2,7 @@ import model.Course;
 import model.Student;
 import service.StudentService;
 import service.GPAService;
+import util.DatabaseHelper;
 
 import java.util.Scanner;
 
@@ -10,6 +11,8 @@ public class Main {
         Scanner input = new Scanner(System.in);
         StudentService studentService = new StudentService();
         GPAService gpaService = new GPAService();
+        DatabaseHelper.initializeDatabase();
+
 
         while (true) {
             System.out.println("\n--- Student Record Management System ---");
@@ -19,6 +22,8 @@ public class Main {
             System.out.println("4. Update Grade");
             System.out.println("5. Calculate GPA");
             System.out.println("6. Enroll In Course");
+            System.out.println("7. Sync from Database");
+            System.out.println("8. Update Student Grade");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
@@ -109,6 +114,24 @@ public class Main {
                         System.out.println("Student not found.");
                     }
                     break;
+                case 7:
+                    studentService.syncFromDatabase();
+                    System.out.println("Synced from database.");
+                    break;
+
+                case 8:
+                    System.out.print("Enter Matric: ");
+                    String matricNum = input.nextLine();
+
+                    System.out.print("Course Code: ");
+                    String courseCode = input.nextLine();
+
+                    System.out.print("New Grade: ");
+                    String newGradeVal = input.nextLine();
+
+                    studentService.updateGrade(matricNum, courseCode, newGradeVal);
+                    break;
+
 
 
                 case 0:
