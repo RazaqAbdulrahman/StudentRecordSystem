@@ -1,11 +1,9 @@
 package service;
-
 import util.FileHelper;
 import model.Course;
 import model.Student;
 
 import java.util.List;
-
 public class GPAService {
 
     private int getGradePoint(String grade) {

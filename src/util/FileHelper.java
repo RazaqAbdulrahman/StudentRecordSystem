@@ -1,8 +1,6 @@
 package util;
-
 import model.Course;
 import model.Student;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

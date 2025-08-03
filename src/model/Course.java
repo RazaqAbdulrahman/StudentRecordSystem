@@ -17,7 +17,6 @@ public class Course {
         this.grade = grade;
     }
 
-
     public String getCourseCode() {
         return courseCode;
     }

@@ -13,7 +13,6 @@ public class Main {
         GPAService gpaService = new GPAService();
         DatabaseHelper.initializeDatabase();
 
-
         while (true) {
             System.out.println("\n--- Student Record Management System ---");
             System.out.println("1. Add New Student");
