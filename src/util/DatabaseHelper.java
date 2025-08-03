@@ -33,7 +33,6 @@ public class DatabaseHelper {
             System.out.println("DB Init Error: " + e.getMessage());
         }
     }
-
     public static boolean deleteStudentFromDatabase(String matric) {
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             String deleteCourses = "DELETE FROM courses WHERE matric = ?";
@@ -93,13 +92,11 @@ public class DatabaseHelper {
                         student.updateGrade(code, grade);
                     }
                 }
-
                 list.add(student);
             }
         } catch (SQLException e) {
             System.out.println("Fetch Error: " + e.getMessage());
         }
-
         return list;
     }
 }

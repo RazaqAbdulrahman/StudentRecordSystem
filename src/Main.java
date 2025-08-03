@@ -132,8 +132,6 @@ public class Main {
                     studentService.updateGrade(matricNum, courseCode, newGradeVal);
                     break;
 
-
-
                 case 0:
                     System.out.println("Exiting program. Goodbye!");
                     return;
