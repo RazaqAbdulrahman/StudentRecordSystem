@@ -1,0 +1,2 @@
+STUDENT|Abdulrahman Abdulrazaq|001|Computer Science
+END
