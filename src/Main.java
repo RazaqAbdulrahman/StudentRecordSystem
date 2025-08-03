@@ -3,7 +3,6 @@ import model.Student;
 import service.StudentService;
 import service.GPAService;
 import util.DatabaseHelper;
-
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +21,7 @@ public class Main {
             System.out.println("5. Calculate GPA");
             System.out.println("6. Enroll In Course");
             System.out.println("7. Sync from Database");
-            System.out.println("8. Update Student Grade");
+            //System.out.println("8. Update Student Grade");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
@@ -118,6 +117,7 @@ public class Main {
                     System.out.println("Synced from database.");
                     break;
 
+/*
                 case 8:
                     System.out.print("Enter Matric: ");
                     String matricNum = input.nextLine();
@@ -130,6 +130,9 @@ public class Main {
 
                     studentService.updateGrade(matricNum, courseCode, newGradeVal);
                     break;
+
+ */
+
 
                 case 0:
                     System.out.println("Exiting program. Goodbye!");
