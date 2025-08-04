@@ -1,6 +1,880 @@
 STUDENT|Abdulrahman Abdulrazaq|001|Computer Science
-COURSE|CSC 501|Computational Theory|3|A
-COURSE|CSC 503|SIWES|6|A
+COURSE|CSC 501|Course Title for CSC 501|3|A
+COURSE|CSC 513|Course Title for CSC 513|2|A
+COURSE|CSC 509|Course Title for CSC 509|2|C
+COURSE|CSC 507|Course Title for CSC 507|2|A
+COURSE|CSC 521|Course Title for CSC 521|3|C
+COURSE|CSC 515|Course Title for CSC 515|2|B
+COURSE|CSC 505|Course Title for CSC 505|3|B
+COURSE|CSC 511|Course Title for CSC 511|2|D
+COURSE|CSC 503|Course Title for CSC 503|2|B
 END
-STUDENT|Abolaji Abdulrazaq|002|Computer Science
+STUDENT|Chioma Garba|002|Biochemistry
+COURSE|BCH 503|Course Title for BCH 503|3|B
+COURSE|BCH 513|Course Title for BCH 513|2|B
+COURSE|BCH 509|Course Title for BCH 509|3|D
+COURSE|BCH 521|Course Title for BCH 521|2|A
+COURSE|BCH 515|Course Title for BCH 515|2|B
+COURSE|BCH 501|Course Title for BCH 501|3|A
+COURSE|BCH 507|Course Title for BCH 507|3|C
+COURSE|BCH 505|Course Title for BCH 505|3|D
+COURSE|BCH 511|Course Title for BCH 511|3|C
+END
+STUDENT|Emeka Ola|003|Business Administration
+COURSE|BUS 513|Course Title for BUS 513|2|A
+COURSE|BUS 505|Course Title for BUS 505|3|F
+COURSE|BUS 507|Course Title for BUS 507|2|C
+COURSE|BUS 501|Course Title for BUS 501|3|E
+COURSE|BUS 521|Course Title for BUS 521|2|A
+COURSE|BUS 503|Course Title for BUS 503|3|B
+COURSE|BUS 509|Course Title for BUS 509|2|C
+COURSE|BUS 511|Course Title for BUS 511|3|B
+COURSE|BUS 515|Course Title for BUS 515|3|E
+END
+STUDENT|Abdulrahman Balogun|004|Biochemistry
+COURSE|BCH 521|Course Title for BCH 521|2|F
+COURSE|BCH 501|Course Title for BCH 501|3|F
+COURSE|BCH 511|Course Title for BCH 511|2|C
+COURSE|BCH 515|Course Title for BCH 515|3|D
+COURSE|BCH 507|Course Title for BCH 507|2|A
+COURSE|BCH 505|Course Title for BCH 505|3|B
+COURSE|BCH 509|Course Title for BCH 509|2|E
+COURSE|BCH 513|Course Title for BCH 513|2|E
+COURSE|BCH 503|Course Title for BCH 503|3|C
+END
+STUDENT|Fatima Johnson|005|Mathematics
+COURSE|MTH 513|Course Title for MTH 513|3|B
+COURSE|MTH 515|Course Title for MTH 515|3|F
+COURSE|MTH 509|Course Title for MTH 509|3|B
+COURSE|MTH 511|Course Title for MTH 511|2|E
+COURSE|MTH 501|Course Title for MTH 501|2|F
+COURSE|MTH 505|Course Title for MTH 505|2|A
+COURSE|MTH 507|Course Title for MTH 507|3|F
+COURSE|MTH 503|Course Title for MTH 503|3|B
+COURSE|MTH 521|Course Title for MTH 521|3|A
+END
+STUDENT|Tunde Abdulrazaq|006|Electrical Engineering
+COURSE|EEE 501|Course Title for EEE 501|3|E
+COURSE|EEE 521|Course Title for EEE 521|3|A
+COURSE|EEE 515|Course Title for EEE 515|3|B
+COURSE|EEE 509|Course Title for EEE 509|2|B
+COURSE|EEE 503|Course Title for EEE 503|2|C
+COURSE|EEE 513|Course Title for EEE 513|2|E
+COURSE|EEE 505|Course Title for EEE 505|3|E
+COURSE|EEE 511|Course Title for EEE 511|2|C
+COURSE|EEE 507|Course Title for EEE 507|2|E
+END
+STUDENT|Tunde Abdulrazaq|007|Mechanical Engineering
+COURSE|MEE 515|Course Title for MEE 515|3|D
+COURSE|MEE 507|Course Title for MEE 507|2|D
+COURSE|MEE 521|Course Title for MEE 521|3|C
+COURSE|MEE 501|Course Title for MEE 501|3|B
+COURSE|MEE 503|Course Title for MEE 503|3|B
+COURSE|MEE 511|Course Title for MEE 511|3|A
+COURSE|MEE 505|Course Title for MEE 505|2|A
+COURSE|MEE 509|Course Title for MEE 509|2|E
+COURSE|MEE 513|Course Title for MEE 513|2|F
+END
+STUDENT|Fatima Mohammed|008|Computer Science
+COURSE|CSC 513|Course Title for CSC 513|2|F
+COURSE|CSC 515|Course Title for CSC 515|2|C
+COURSE|CSC 509|Course Title for CSC 509|2|A
+COURSE|CSC 507|Course Title for CSC 507|3|B
+COURSE|CSC 503|Course Title for CSC 503|2|E
+COURSE|CSC 501|Course Title for CSC 501|3|C
+COURSE|CSC 505|Course Title for CSC 505|2|A
+COURSE|CSC 521|Course Title for CSC 521|2|C
+COURSE|CSC 511|Course Title for CSC 511|3|D
+END
+STUDENT|Fatima Balogun|009|Computer Science
+COURSE|CSC 513|Course Title for CSC 513|2|C
+COURSE|CSC 511|Course Title for CSC 511|3|D
+COURSE|CSC 507|Course Title for CSC 507|3|B
+COURSE|CSC 501|Course Title for CSC 501|3|F
+COURSE|CSC 503|Course Title for CSC 503|3|A
+COURSE|CSC 505|Course Title for CSC 505|2|A
+COURSE|CSC 521|Course Title for CSC 521|2|C
+COURSE|CSC 509|Course Title for CSC 509|2|B
+COURSE|CSC 515|Course Title for CSC 515|2|A
+END
+STUDENT|Esther Mohammed|010|Mass Communication
+COURSE|MCM 505|Course Title for MCM 505|2|F
+COURSE|MCM 513|Course Title for MCM 513|2|E
+COURSE|MCM 503|Course Title for MCM 503|2|A
+COURSE|MCM 521|Course Title for MCM 521|3|D
+COURSE|MCM 509|Course Title for MCM 509|3|A
+COURSE|MCM 501|Course Title for MCM 501|3|D
+COURSE|MCM 511|Course Title for MCM 511|2|C
+COURSE|MCM 515|Course Title for MCM 515|3|E
+COURSE|MCM 507|Course Title for MCM 507|3|D
+END
+STUDENT|Emeka Mohammed|011|Computer Science
+COURSE|CSC 511|Course Title for CSC 511|3|A
+COURSE|CSC 507|Course Title for CSC 507|3|A
+COURSE|CSC 521|Course Title for CSC 521|2|F
+COURSE|CSC 501|Course Title for CSC 501|2|D
+COURSE|CSC 515|Course Title for CSC 515|3|C
+COURSE|CSC 513|Course Title for CSC 513|3|C
+COURSE|CSC 503|Course Title for CSC 503|3|E
+COURSE|CSC 505|Course Title for CSC 505|3|A
+COURSE|CSC 509|Course Title for CSC 509|3|C
+END
+STUDENT|David Ola|012|Biochemistry
+COURSE|BCH 509|Course Title for BCH 509|3|A
+COURSE|BCH 505|Course Title for BCH 505|3|D
+COURSE|BCH 515|Course Title for BCH 515|3|F
+COURSE|BCH 503|Course Title for BCH 503|3|C
+COURSE|BCH 511|Course Title for BCH 511|2|F
+COURSE|BCH 507|Course Title for BCH 507|2|F
+COURSE|BCH 513|Course Title for BCH 513|2|E
+COURSE|BCH 501|Course Title for BCH 501|3|A
+COURSE|BCH 521|Course Title for BCH 521|2|B
+END
+STUDENT|Zainab Ola|013|Mechanical Engineering
+COURSE|MEE 515|Course Title for MEE 515|2|A
+COURSE|MEE 521|Course Title for MEE 521|3|C
+COURSE|MEE 511|Course Title for MEE 511|2|F
+COURSE|MEE 513|Course Title for MEE 513|2|F
+COURSE|MEE 507|Course Title for MEE 507|3|B
+COURSE|MEE 503|Course Title for MEE 503|3|D
+COURSE|MEE 505|Course Title for MEE 505|3|B
+COURSE|MEE 501|Course Title for MEE 501|2|B
+COURSE|MEE 509|Course Title for MEE 509|3|D
+END
+STUDENT|Esther Abdulrazaq|014|Mass Communication
+COURSE|MCM 513|Course Title for MCM 513|3|D
+COURSE|MCM 501|Course Title for MCM 501|3|B
+COURSE|MCM 505|Course Title for MCM 505|2|D
+COURSE|MCM 509|Course Title for MCM 509|2|F
+COURSE|MCM 521|Course Title for MCM 521|2|F
+COURSE|MCM 515|Course Title for MCM 515|2|A
+COURSE|MCM 503|Course Title for MCM 503|2|E
+COURSE|MCM 511|Course Title for MCM 511|3|F
+COURSE|MCM 507|Course Title for MCM 507|2|D
+END
+STUDENT|Fatima Danladi|015|Business Administration
+COURSE|BUS 521|Course Title for BUS 521|3|D
+COURSE|BUS 515|Course Title for BUS 515|2|E
+COURSE|BUS 513|Course Title for BUS 513|3|F
+COURSE|BUS 505|Course Title for BUS 505|2|A
+COURSE|BUS 507|Course Title for BUS 507|3|E
+COURSE|BUS 509|Course Title for BUS 509|3|A
+COURSE|BUS 511|Course Title for BUS 511|2|E
+COURSE|BUS 503|Course Title for BUS 503|2|B
+COURSE|BUS 501|Course Title for BUS 501|2|B
+END
+STUDENT|Emeka Chukwu|016|Mechanical Engineering
+COURSE|MEE 515|Course Title for MEE 515|3|A
+COURSE|MEE 507|Course Title for MEE 507|2|B
+COURSE|MEE 505|Course Title for MEE 505|2|D
+COURSE|MEE 501|Course Title for MEE 501|3|B
+COURSE|MEE 513|Course Title for MEE 513|2|C
+COURSE|MEE 509|Course Title for MEE 509|2|A
+COURSE|MEE 511|Course Title for MEE 511|2|E
+COURSE|MEE 503|Course Title for MEE 503|3|C
+COURSE|MEE 521|Course Title for MEE 521|3|F
+END
+STUDENT|Emeka Adewale|017|Business Administration
+COURSE|BUS 501|Course Title for BUS 501|3|D
+COURSE|BUS 503|Course Title for BUS 503|2|E
+COURSE|BUS 513|Course Title for BUS 513|2|E
+COURSE|BUS 511|Course Title for BUS 511|3|A
+COURSE|BUS 505|Course Title for BUS 505|3|B
+COURSE|BUS 507|Course Title for BUS 507|2|D
+COURSE|BUS 509|Course Title for BUS 509|3|C
+COURSE|BUS 521|Course Title for BUS 521|3|E
+COURSE|BUS 515|Course Title for BUS 515|3|F
+END
+STUDENT|Zainab Johnson|018|Computer Science
+COURSE|CSC 503|Course Title for CSC 503|3|D
+COURSE|CSC 509|Course Title for CSC 509|2|D
+COURSE|CSC 521|Course Title for CSC 521|2|E
+COURSE|CSC 515|Course Title for CSC 515|3|F
+COURSE|CSC 501|Course Title for CSC 501|3|D
+COURSE|CSC 513|Course Title for CSC 513|2|E
+COURSE|CSC 511|Course Title for CSC 511|3|C
+COURSE|CSC 505|Course Title for CSC 505|3|E
+COURSE|CSC 507|Course Title for CSC 507|3|B
+END
+STUDENT|Ibrahim Danladi|019|Mass Communication
+COURSE|MCM 521|Course Title for MCM 521|2|E
+COURSE|MCM 505|Course Title for MCM 505|2|E
+COURSE|MCM 503|Course Title for MCM 503|2|C
+COURSE|MCM 511|Course Title for MCM 511|2|B
+COURSE|MCM 509|Course Title for MCM 509|2|E
+COURSE|MCM 515|Course Title for MCM 515|2|F
+COURSE|MCM 501|Course Title for MCM 501|2|D
+COURSE|MCM 507|Course Title for MCM 507|3|D
+COURSE|MCM 513|Course Title for MCM 513|3|A
+END
+STUDENT|Zainab Okoro|020|Mathematics
+COURSE|MTH 521|Course Title for MTH 521|2|F
+COURSE|MTH 505|Course Title for MTH 505|3|D
+COURSE|MTH 503|Course Title for MTH 503|2|A
+COURSE|MTH 501|Course Title for MTH 501|2|B
+COURSE|MTH 513|Course Title for MTH 513|2|F
+COURSE|MTH 511|Course Title for MTH 511|3|F
+COURSE|MTH 507|Course Title for MTH 507|2|A
+COURSE|MTH 509|Course Title for MTH 509|3|E
+COURSE|MTH 515|Course Title for MTH 515|3|F
+END
+STUDENT|Esther Abdulrazaq|021|Mass Communication
+COURSE|MCM 505|Course Title for MCM 505|3|A
+COURSE|MCM 507|Course Title for MCM 507|3|A
+COURSE|MCM 513|Course Title for MCM 513|3|E
+COURSE|MCM 521|Course Title for MCM 521|2|A
+COURSE|MCM 501|Course Title for MCM 501|2|F
+COURSE|MCM 515|Course Title for MCM 515|2|C
+COURSE|MCM 511|Course Title for MCM 511|3|F
+COURSE|MCM 503|Course Title for MCM 503|3|E
+COURSE|MCM 509|Course Title for MCM 509|2|D
+END
+STUDENT|Tunde Okoro|022|Mechanical Engineering
+COURSE|MEE 505|Course Title for MEE 505|3|F
+COURSE|MEE 515|Course Title for MEE 515|2|F
+COURSE|MEE 513|Course Title for MEE 513|2|E
+COURSE|MEE 507|Course Title for MEE 507|3|B
+COURSE|MEE 503|Course Title for MEE 503|3|D
+COURSE|MEE 521|Course Title for MEE 521|2|E
+COURSE|MEE 509|Course Title for MEE 509|2|A
+COURSE|MEE 511|Course Title for MEE 511|2|D
+COURSE|MEE 501|Course Title for MEE 501|3|E
+END
+STUDENT|Emeka Garba|023|Mechanical Engineering
+COURSE|MEE 503|Course Title for MEE 503|2|E
+COURSE|MEE 501|Course Title for MEE 501|3|D
+COURSE|MEE 513|Course Title for MEE 513|3|D
+COURSE|MEE 511|Course Title for MEE 511|3|A
+COURSE|MEE 507|Course Title for MEE 507|3|A
+COURSE|MEE 521|Course Title for MEE 521|2|B
+COURSE|MEE 515|Course Title for MEE 515|3|D
+COURSE|MEE 509|Course Title for MEE 509|2|A
+COURSE|MEE 505|Course Title for MEE 505|3|E
+END
+STUDENT|David Abdulrazaq|024|Mass Communication
+COURSE|MCM 503|Course Title for MCM 503|3|E
+COURSE|MCM 511|Course Title for MCM 511|3|E
+COURSE|MCM 515|Course Title for MCM 515|2|D
+COURSE|MCM 521|Course Title for MCM 521|2|D
+COURSE|MCM 501|Course Title for MCM 501|2|E
+COURSE|MCM 507|Course Title for MCM 507|2|E
+COURSE|MCM 513|Course Title for MCM 513|3|B
+COURSE|MCM 509|Course Title for MCM 509|2|C
+COURSE|MCM 505|Course Title for MCM 505|2|E
+END
+STUDENT|David Garba|025|Mechanical Engineering
+COURSE|MEE 521|Course Title for MEE 521|3|F
+COURSE|MEE 511|Course Title for MEE 511|2|D
+COURSE|MEE 505|Course Title for MEE 505|2|D
+COURSE|MEE 507|Course Title for MEE 507|3|C
+COURSE|MEE 503|Course Title for MEE 503|3|C
+COURSE|MEE 501|Course Title for MEE 501|2|E
+COURSE|MEE 513|Course Title for MEE 513|2|C
+COURSE|MEE 509|Course Title for MEE 509|2|E
+COURSE|MEE 515|Course Title for MEE 515|3|C
+END
+STUDENT|Ibrahim Balogun|026|Computer Science
+COURSE|CSC 511|Course Title for CSC 511|2|D
+COURSE|CSC 513|Course Title for CSC 513|2|C
+COURSE|CSC 509|Course Title for CSC 509|2|E
+COURSE|CSC 501|Course Title for CSC 501|3|A
+COURSE|CSC 505|Course Title for CSC 505|2|D
+COURSE|CSC 515|Course Title for CSC 515|2|C
+COURSE|CSC 521|Course Title for CSC 521|3|B
+COURSE|CSC 507|Course Title for CSC 507|2|C
+COURSE|CSC 503|Course Title for CSC 503|3|B
+END
+STUDENT|Ibrahim Chukwu|027|Mass Communication
+COURSE|MCM 521|Course Title for MCM 521|3|A
+COURSE|MCM 501|Course Title for MCM 501|3|E
+COURSE|MCM 509|Course Title for MCM 509|3|F
+COURSE|MCM 507|Course Title for MCM 507|2|C
+COURSE|MCM 513|Course Title for MCM 513|2|D
+COURSE|MCM 503|Course Title for MCM 503|2|C
+COURSE|MCM 511|Course Title for MCM 511|2|A
+COURSE|MCM 515|Course Title for MCM 515|3|A
+COURSE|MCM 505|Course Title for MCM 505|3|A
+END
+STUDENT|Esther Abdulrazaq|028|Computer Science
+COURSE|CSC 507|Course Title for CSC 507|2|E
+COURSE|CSC 513|Course Title for CSC 513|2|C
+COURSE|CSC 511|Course Title for CSC 511|2|D
+COURSE|CSC 521|Course Title for CSC 521|3|B
+COURSE|CSC 509|Course Title for CSC 509|2|B
+COURSE|CSC 515|Course Title for CSC 515|2|B
+COURSE|CSC 505|Course Title for CSC 505|2|D
+COURSE|CSC 503|Course Title for CSC 503|2|C
+COURSE|CSC 501|Course Title for CSC 501|3|B
+END
+STUDENT|David Garba|029|Biochemistry
+COURSE|BCH 515|Course Title for BCH 515|3|F
+COURSE|BCH 521|Course Title for BCH 521|3|B
+COURSE|BCH 513|Course Title for BCH 513|3|C
+COURSE|BCH 503|Course Title for BCH 503|2|B
+COURSE|BCH 507|Course Title for BCH 507|2|D
+COURSE|BCH 505|Course Title for BCH 505|2|A
+COURSE|BCH 501|Course Title for BCH 501|2|E
+COURSE|BCH 509|Course Title for BCH 509|3|B
+COURSE|BCH 511|Course Title for BCH 511|3|B
+END
+STUDENT|Ibrahim Adewale|030|Mathematics
+COURSE|MTH 509|Course Title for MTH 509|3|A
+COURSE|MTH 511|Course Title for MTH 511|2|A
+COURSE|MTH 515|Course Title for MTH 515|2|E
+COURSE|MTH 507|Course Title for MTH 507|2|D
+COURSE|MTH 505|Course Title for MTH 505|3|E
+COURSE|MTH 513|Course Title for MTH 513|2|C
+COURSE|MTH 521|Course Title for MTH 521|2|E
+COURSE|MTH 503|Course Title for MTH 503|2|D
+COURSE|MTH 501|Course Title for MTH 501|3|A
+END
+STUDENT|Emeka Abdulrazaq|031|Mass Communication
+COURSE|MCM 503|Course Title for MCM 503|2|C
+COURSE|MCM 515|Course Title for MCM 515|3|B
+COURSE|MCM 509|Course Title for MCM 509|2|F
+COURSE|MCM 511|Course Title for MCM 511|2|C
+COURSE|MCM 513|Course Title for MCM 513|3|E
+COURSE|MCM 521|Course Title for MCM 521|2|F
+COURSE|MCM 505|Course Title for MCM 505|3|F
+COURSE|MCM 501|Course Title for MCM 501|2|C
+COURSE|MCM 507|Course Title for MCM 507|3|F
+END
+STUDENT|Ibrahim Garba|032|Business Administration
+COURSE|BUS 509|Course Title for BUS 509|2|B
+COURSE|BUS 505|Course Title for BUS 505|2|E
+COURSE|BUS 501|Course Title for BUS 501|3|F
+COURSE|BUS 515|Course Title for BUS 515|3|D
+COURSE|BUS 503|Course Title for BUS 503|3|A
+COURSE|BUS 507|Course Title for BUS 507|3|C
+COURSE|BUS 511|Course Title for BUS 511|2|B
+COURSE|BUS 513|Course Title for BUS 513|2|B
+COURSE|BUS 521|Course Title for BUS 521|2|B
+END
+STUDENT|Fatima Johnson|033|Mass Communication
+COURSE|MCM 509|Course Title for MCM 509|2|D
+COURSE|MCM 511|Course Title for MCM 511|2|D
+COURSE|MCM 521|Course Title for MCM 521|3|B
+COURSE|MCM 503|Course Title for MCM 503|3|E
+COURSE|MCM 515|Course Title for MCM 515|2|D
+COURSE|MCM 513|Course Title for MCM 513|3|B
+COURSE|MCM 507|Course Title for MCM 507|2|F
+COURSE|MCM 501|Course Title for MCM 501|3|F
+COURSE|MCM 505|Course Title for MCM 505|3|C
+END
+STUDENT|Ibrahim Ola|034|Electrical Engineering
+COURSE|EEE 513|Course Title for EEE 513|3|E
+COURSE|EEE 515|Course Title for EEE 515|2|E
+COURSE|EEE 501|Course Title for EEE 501|3|F
+COURSE|EEE 509|Course Title for EEE 509|3|C
+COURSE|EEE 521|Course Title for EEE 521|3|D
+COURSE|EEE 507|Course Title for EEE 507|3|C
+COURSE|EEE 503|Course Title for EEE 503|3|A
+COURSE|EEE 511|Course Title for EEE 511|3|A
+COURSE|EEE 505|Course Title for EEE 505|3|A
+END
+STUDENT|David Balogun|035|Mass Communication
+COURSE|MCM 513|Course Title for MCM 513|2|D
+COURSE|MCM 515|Course Title for MCM 515|2|E
+COURSE|MCM 509|Course Title for MCM 509|2|F
+COURSE|MCM 511|Course Title for MCM 511|2|C
+COURSE|MCM 505|Course Title for MCM 505|3|D
+COURSE|MCM 503|Course Title for MCM 503|2|A
+COURSE|MCM 507|Course Title for MCM 507|3|C
+COURSE|MCM 501|Course Title for MCM 501|3|D
+COURSE|MCM 521|Course Title for MCM 521|2|E
+END
+STUDENT|Ibrahim Chukwu|036|Mechanical Engineering
+COURSE|MEE 513|Course Title for MEE 513|3|B
+COURSE|MEE 501|Course Title for MEE 501|3|D
+COURSE|MEE 511|Course Title for MEE 511|2|C
+COURSE|MEE 509|Course Title for MEE 509|3|C
+COURSE|MEE 521|Course Title for MEE 521|2|C
+COURSE|MEE 503|Course Title for MEE 503|3|B
+COURSE|MEE 505|Course Title for MEE 505|2|F
+COURSE|MEE 507|Course Title for MEE 507|2|D
+COURSE|MEE 515|Course Title for MEE 515|3|B
+END
+STUDENT|David Okoro|037|Business Administration
+COURSE|BUS 501|Course Title for BUS 501|3|D
+COURSE|BUS 507|Course Title for BUS 507|3|C
+COURSE|BUS 513|Course Title for BUS 513|2|F
+COURSE|BUS 521|Course Title for BUS 521|3|C
+COURSE|BUS 505|Course Title for BUS 505|2|C
+COURSE|BUS 515|Course Title for BUS 515|2|D
+COURSE|BUS 509|Course Title for BUS 509|3|D
+COURSE|BUS 503|Course Title for BUS 503|2|E
+COURSE|BUS 511|Course Title for BUS 511|3|E
+END
+STUDENT|Tunde Adewale|038|Business Administration
+COURSE|BUS 507|Course Title for BUS 507|3|A
+COURSE|BUS 515|Course Title for BUS 515|2|E
+COURSE|BUS 509|Course Title for BUS 509|3|A
+COURSE|BUS 521|Course Title for BUS 521|2|D
+COURSE|BUS 513|Course Title for BUS 513|3|D
+COURSE|BUS 503|Course Title for BUS 503|3|A
+COURSE|BUS 511|Course Title for BUS 511|2|D
+COURSE|BUS 501|Course Title for BUS 501|2|F
+COURSE|BUS 505|Course Title for BUS 505|2|D
+END
+STUDENT|Tunde Abdulrazaq|039|Biochemistry
+COURSE|BCH 513|Course Title for BCH 513|3|B
+COURSE|BCH 515|Course Title for BCH 515|3|A
+COURSE|BCH 521|Course Title for BCH 521|2|D
+COURSE|BCH 509|Course Title for BCH 509|2|D
+COURSE|BCH 501|Course Title for BCH 501|2|E
+COURSE|BCH 505|Course Title for BCH 505|3|F
+COURSE|BCH 507|Course Title for BCH 507|3|D
+COURSE|BCH 511|Course Title for BCH 511|3|E
+COURSE|BCH 503|Course Title for BCH 503|3|B
+END
+STUDENT|Esther Johnson|040|Computer Science
+COURSE|CSC 513|Course Title for CSC 513|2|B
+COURSE|CSC 509|Course Title for CSC 509|3|C
+COURSE|CSC 515|Course Title for CSC 515|2|E
+COURSE|CSC 501|Course Title for CSC 501|2|B
+COURSE|CSC 505|Course Title for CSC 505|3|D
+COURSE|CSC 511|Course Title for CSC 511|3|A
+COURSE|CSC 503|Course Title for CSC 503|2|F
+COURSE|CSC 507|Course Title for CSC 507|2|C
+COURSE|CSC 521|Course Title for CSC 521|2|B
+END
+STUDENT|Esther Johnson|041|Mass Communication
+COURSE|MCM 505|Course Title for MCM 505|3|C
+COURSE|MCM 509|Course Title for MCM 509|3|A
+COURSE|MCM 511|Course Title for MCM 511|2|F
+COURSE|MCM 521|Course Title for MCM 521|3|E
+COURSE|MCM 515|Course Title for MCM 515|3|D
+COURSE|MCM 507|Course Title for MCM 507|3|D
+COURSE|MCM 501|Course Title for MCM 501|3|C
+COURSE|MCM 503|Course Title for MCM 503|2|D
+COURSE|MCM 513|Course Title for MCM 513|2|C
+END
+STUDENT|Emeka Chukwu|042|Business Administration
+COURSE|BUS 505|Course Title for BUS 505|3|E
+COURSE|BUS 511|Course Title for BUS 511|3|C
+COURSE|BUS 503|Course Title for BUS 503|3|D
+COURSE|BUS 515|Course Title for BUS 515|2|E
+COURSE|BUS 507|Course Title for BUS 507|3|B
+COURSE|BUS 513|Course Title for BUS 513|3|D
+COURSE|BUS 521|Course Title for BUS 521|2|D
+COURSE|BUS 501|Course Title for BUS 501|3|D
+COURSE|BUS 509|Course Title for BUS 509|3|D
+END
+STUDENT|Esther Garba|043|Business Administration
+COURSE|BUS 509|Course Title for BUS 509|2|C
+COURSE|BUS 507|Course Title for BUS 507|2|C
+COURSE|BUS 505|Course Title for BUS 505|3|F
+COURSE|BUS 515|Course Title for BUS 515|3|C
+COURSE|BUS 513|Course Title for BUS 513|3|F
+COURSE|BUS 521|Course Title for BUS 521|3|D
+COURSE|BUS 503|Course Title for BUS 503|3|C
+COURSE|BUS 501|Course Title for BUS 501|2|C
+COURSE|BUS 511|Course Title for BUS 511|3|B
+END
+STUDENT|Bola Chukwu|044|Electrical Engineering
+COURSE|EEE 515|Course Title for EEE 515|2|E
+COURSE|EEE 507|Course Title for EEE 507|3|D
+COURSE|EEE 509|Course Title for EEE 509|2|A
+COURSE|EEE 513|Course Title for EEE 513|2|F
+COURSE|EEE 501|Course Title for EEE 501|3|B
+COURSE|EEE 521|Course Title for EEE 521|2|E
+COURSE|EEE 503|Course Title for EEE 503|3|C
+COURSE|EEE 505|Course Title for EEE 505|2|A
+COURSE|EEE 511|Course Title for EEE 511|2|B
+END
+STUDENT|Abdulrahman Chukwu|045|Business Administration
+COURSE|BUS 503|Course Title for BUS 503|2|D
+COURSE|BUS 521|Course Title for BUS 521|3|E
+COURSE|BUS 501|Course Title for BUS 501|2|A
+COURSE|BUS 515|Course Title for BUS 515|3|E
+COURSE|BUS 511|Course Title for BUS 511|2|F
+COURSE|BUS 509|Course Title for BUS 509|3|B
+COURSE|BUS 513|Course Title for BUS 513|3|E
+COURSE|BUS 507|Course Title for BUS 507|2|C
+COURSE|BUS 505|Course Title for BUS 505|2|A
+END
+STUDENT|Bola Johnson|046|Biochemistry
+COURSE|BCH 505|Course Title for BCH 505|2|E
+COURSE|BCH 509|Course Title for BCH 509|3|A
+COURSE|BCH 507|Course Title for BCH 507|3|A
+COURSE|BCH 513|Course Title for BCH 513|3|D
+COURSE|BCH 501|Course Title for BCH 501|2|A
+COURSE|BCH 511|Course Title for BCH 511|2|A
+COURSE|BCH 521|Course Title for BCH 521|2|C
+COURSE|BCH 515|Course Title for BCH 515|2|C
+COURSE|BCH 503|Course Title for BCH 503|2|E
+END
+STUDENT|David Johnson|047|Business Administration
+COURSE|BUS 513|Course Title for BUS 513|2|E
+COURSE|BUS 515|Course Title for BUS 515|3|F
+COURSE|BUS 509|Course Title for BUS 509|2|F
+COURSE|BUS 505|Course Title for BUS 505|3|B
+COURSE|BUS 507|Course Title for BUS 507|3|D
+COURSE|BUS 511|Course Title for BUS 511|3|F
+COURSE|BUS 503|Course Title for BUS 503|2|C
+COURSE|BUS 521|Course Title for BUS 521|3|C
+COURSE|BUS 501|Course Title for BUS 501|3|B
+END
+STUDENT|Ibrahim Mohammed|048|Mathematics
+COURSE|MTH 521|Course Title for MTH 521|2|C
+COURSE|MTH 511|Course Title for MTH 511|3|E
+COURSE|MTH 505|Course Title for MTH 505|3|F
+COURSE|MTH 503|Course Title for MTH 503|2|D
+COURSE|MTH 509|Course Title for MTH 509|3|C
+COURSE|MTH 501|Course Title for MTH 501|2|A
+COURSE|MTH 515|Course Title for MTH 515|3|B
+COURSE|MTH 507|Course Title for MTH 507|3|D
+COURSE|MTH 513|Course Title for MTH 513|2|A
+END
+STUDENT|Bola Johnson|049|Mass Communication
+COURSE|MCM 505|Course Title for MCM 505|2|F
+COURSE|MCM 511|Course Title for MCM 511|2|D
+COURSE|MCM 513|Course Title for MCM 513|2|A
+COURSE|MCM 521|Course Title for MCM 521|3|B
+COURSE|MCM 515|Course Title for MCM 515|3|D
+COURSE|MCM 507|Course Title for MCM 507|3|F
+COURSE|MCM 509|Course Title for MCM 509|3|C
+COURSE|MCM 503|Course Title for MCM 503|2|F
+COURSE|MCM 501|Course Title for MCM 501|2|C
+END
+STUDENT|Fatima Ola|050|Mechanical Engineering
+COURSE|MEE 521|Course Title for MEE 521|2|E
+COURSE|MEE 515|Course Title for MEE 515|2|F
+COURSE|MEE 509|Course Title for MEE 509|2|D
+COURSE|MEE 507|Course Title for MEE 507|3|B
+COURSE|MEE 503|Course Title for MEE 503|3|D
+COURSE|MEE 501|Course Title for MEE 501|3|A
+COURSE|MEE 513|Course Title for MEE 513|3|E
+COURSE|MEE 505|Course Title for MEE 505|2|F
+COURSE|MEE 511|Course Title for MEE 511|2|E
+END
+STUDENT|Zainab Garba|051|Mechanical Engineering
+COURSE|MEE 515|Course Title for MEE 515|2|E
+COURSE|MEE 505|Course Title for MEE 505|2|A
+COURSE|MEE 513|Course Title for MEE 513|2|F
+COURSE|MEE 521|Course Title for MEE 521|3|D
+COURSE|MEE 501|Course Title for MEE 501|2|B
+COURSE|MEE 507|Course Title for MEE 507|2|A
+COURSE|MEE 509|Course Title for MEE 509|2|B
+COURSE|MEE 503|Course Title for MEE 503|2|E
+COURSE|MEE 511|Course Title for MEE 511|2|B
+END
+STUDENT|Zainab Ola|052|Mathematics
+COURSE|MTH 511|Course Title for MTH 511|3|E
+COURSE|MTH 521|Course Title for MTH 521|3|D
+COURSE|MTH 505|Course Title for MTH 505|3|C
+COURSE|MTH 515|Course Title for MTH 515|3|D
+COURSE|MTH 509|Course Title for MTH 509|3|D
+COURSE|MTH 513|Course Title for MTH 513|3|C
+COURSE|MTH 507|Course Title for MTH 507|3|B
+COURSE|MTH 501|Course Title for MTH 501|2|B
+COURSE|MTH 503|Course Title for MTH 503|2|E
+END
+STUDENT|Ibrahim Chukwu|053|Mechanical Engineering
+COURSE|MEE 515|Course Title for MEE 515|2|F
+COURSE|MEE 509|Course Title for MEE 509|3|C
+COURSE|MEE 507|Course Title for MEE 507|3|D
+COURSE|MEE 503|Course Title for MEE 503|2|F
+COURSE|MEE 505|Course Title for MEE 505|3|C
+COURSE|MEE 513|Course Title for MEE 513|3|F
+COURSE|MEE 511|Course Title for MEE 511|2|F
+COURSE|MEE 521|Course Title for MEE 521|2|C
+COURSE|MEE 501|Course Title for MEE 501|3|D
+END
+STUDENT|Bola Abdulrazaq|054|Mechanical Engineering
+COURSE|MEE 515|Course Title for MEE 515|3|A
+COURSE|MEE 505|Course Title for MEE 505|3|B
+COURSE|MEE 513|Course Title for MEE 513|3|C
+COURSE|MEE 503|Course Title for MEE 503|2|D
+COURSE|MEE 501|Course Title for MEE 501|2|F
+COURSE|MEE 509|Course Title for MEE 509|2|A
+COURSE|MEE 511|Course Title for MEE 511|3|A
+COURSE|MEE 507|Course Title for MEE 507|3|D
+COURSE|MEE 521|Course Title for MEE 521|2|B
+END
+STUDENT|Emeka Johnson|055|Mass Communication
+COURSE|MCM 515|Course Title for MCM 515|3|B
+COURSE|MCM 511|Course Title for MCM 511|3|F
+COURSE|MCM 509|Course Title for MCM 509|2|D
+COURSE|MCM 513|Course Title for MCM 513|3|C
+COURSE|MCM 503|Course Title for MCM 503|2|F
+COURSE|MCM 521|Course Title for MCM 521|3|A
+COURSE|MCM 501|Course Title for MCM 501|2|E
+COURSE|MCM 505|Course Title for MCM 505|2|D
+COURSE|MCM 507|Course Title for MCM 507|3|B
+END
+STUDENT|Emeka Abdulrazaq|056|Mathematics
+COURSE|MTH 515|Course Title for MTH 515|2|F
+COURSE|MTH 513|Course Title for MTH 513|3|B
+COURSE|MTH 511|Course Title for MTH 511|2|E
+COURSE|MTH 509|Course Title for MTH 509|3|B
+COURSE|MTH 507|Course Title for MTH 507|3|D
+COURSE|MTH 521|Course Title for MTH 521|2|A
+COURSE|MTH 503|Course Title for MTH 503|2|F
+COURSE|MTH 501|Course Title for MTH 501|2|B
+COURSE|MTH 505|Course Title for MTH 505|3|F
+END
+STUDENT|Bola Ola|057|Business Administration
+COURSE|BUS 513|Course Title for BUS 513|2|E
+COURSE|BUS 521|Course Title for BUS 521|3|B
+COURSE|BUS 505|Course Title for BUS 505|3|D
+COURSE|BUS 511|Course Title for BUS 511|2|D
+COURSE|BUS 501|Course Title for BUS 501|2|D
+COURSE|BUS 515|Course Title for BUS 515|3|C
+COURSE|BUS 507|Course Title for BUS 507|2|F
+COURSE|BUS 503|Course Title for BUS 503|3|B
+COURSE|BUS 509|Course Title for BUS 509|3|C
+END
+STUDENT|Tunde Okoro|058|Mass Communication
+COURSE|MCM 507|Course Title for MCM 507|3|E
+COURSE|MCM 515|Course Title for MCM 515|2|E
+COURSE|MCM 513|Course Title for MCM 513|2|B
+COURSE|MCM 505|Course Title for MCM 505|2|B
+COURSE|MCM 503|Course Title for MCM 503|2|F
+COURSE|MCM 509|Course Title for MCM 509|2|B
+COURSE|MCM 521|Course Title for MCM 521|3|C
+COURSE|MCM 511|Course Title for MCM 511|3|C
+COURSE|MCM 501|Course Title for MCM 501|2|F
+END
+STUDENT|Tunde Chukwu|059|Electrical Engineering
+COURSE|EEE 515|Course Title for EEE 515|2|D
+COURSE|EEE 503|Course Title for EEE 503|3|A
+COURSE|EEE 501|Course Title for EEE 501|3|D
+COURSE|EEE 511|Course Title for EEE 511|3|A
+COURSE|EEE 513|Course Title for EEE 513|3|F
+COURSE|EEE 521|Course Title for EEE 521|2|A
+COURSE|EEE 509|Course Title for EEE 509|3|F
+COURSE|EEE 507|Course Title for EEE 507|2|A
+COURSE|EEE 505|Course Title for EEE 505|2|B
+END
+STUDENT|Zainab Okoro|060|Biochemistry
+COURSE|BCH 503|Course Title for BCH 503|2|A
+COURSE|BCH 501|Course Title for BCH 501|2|B
+COURSE|BCH 515|Course Title for BCH 515|3|B
+COURSE|BCH 509|Course Title for BCH 509|3|A
+COURSE|BCH 507|Course Title for BCH 507|2|B
+COURSE|BCH 521|Course Title for BCH 521|2|F
+COURSE|BCH 513|Course Title for BCH 513|2|E
+COURSE|BCH 505|Course Title for BCH 505|3|C
+COURSE|BCH 511|Course Title for BCH 511|2|F
+END
+STUDENT|Fatima Garba|061|Biochemistry
+COURSE|BCH 505|Course Title for BCH 505|3|F
+COURSE|BCH 515|Course Title for BCH 515|2|D
+COURSE|BCH 513|Course Title for BCH 513|2|D
+COURSE|BCH 507|Course Title for BCH 507|3|C
+COURSE|BCH 521|Course Title for BCH 521|2|B
+COURSE|BCH 511|Course Title for BCH 511|2|A
+COURSE|BCH 501|Course Title for BCH 501|3|F
+COURSE|BCH 509|Course Title for BCH 509|2|E
+COURSE|BCH 503|Course Title for BCH 503|3|C
+END
+STUDENT|Emeka Danladi|062|Mathematics
+COURSE|MTH 507|Course Title for MTH 507|2|D
+COURSE|MTH 511|Course Title for MTH 511|2|B
+COURSE|MTH 521|Course Title for MTH 521|3|E
+COURSE|MTH 505|Course Title for MTH 505|2|D
+COURSE|MTH 513|Course Title for MTH 513|2|B
+COURSE|MTH 503|Course Title for MTH 503|2|A
+COURSE|MTH 509|Course Title for MTH 509|2|A
+COURSE|MTH 515|Course Title for MTH 515|2|C
+COURSE|MTH 501|Course Title for MTH 501|3|C
+END
+STUDENT|Esther Abdulrazaq|063|Computer Science
+COURSE|CSC 513|Course Title for CSC 513|2|E
+COURSE|CSC 509|Course Title for CSC 509|2|B
+COURSE|CSC 515|Course Title for CSC 515|2|D
+COURSE|CSC 505|Course Title for CSC 505|3|B
+COURSE|CSC 503|Course Title for CSC 503|3|B
+COURSE|CSC 511|Course Title for CSC 511|3|F
+COURSE|CSC 521|Course Title for CSC 521|3|E
+COURSE|CSC 501|Course Title for CSC 501|2|F
+COURSE|CSC 507|Course Title for CSC 507|3|C
+END
+STUDENT|Ibrahim Mohammed|064|Mathematics
+COURSE|MTH 515|Course Title for MTH 515|2|A
+COURSE|MTH 507|Course Title for MTH 507|3|D
+COURSE|MTH 513|Course Title for MTH 513|3|E
+COURSE|MTH 509|Course Title for MTH 509|3|D
+COURSE|MTH 503|Course Title for MTH 503|3|D
+COURSE|MTH 511|Course Title for MTH 511|3|E
+COURSE|MTH 505|Course Title for MTH 505|3|C
+COURSE|MTH 501|Course Title for MTH 501|2|A
+COURSE|MTH 521|Course Title for MTH 521|2|F
+END
+STUDENT|Zainab Adewale|065|Mass Communication
+COURSE|MCM 505|Course Title for MCM 505|3|A
+COURSE|MCM 509|Course Title for MCM 509|2|C
+COURSE|MCM 521|Course Title for MCM 521|3|A
+COURSE|MCM 511|Course Title for MCM 511|2|D
+COURSE|MCM 515|Course Title for MCM 515|3|E
+COURSE|MCM 501|Course Title for MCM 501|3|F
+COURSE|MCM 503|Course Title for MCM 503|2|E
+COURSE|MCM 507|Course Title for MCM 507|2|B
+COURSE|MCM 513|Course Title for MCM 513|2|C
+END
+STUDENT|Abdulrahman Danladi|066|Computer Science
+COURSE|CSC 505|Course Title for CSC 505|3|E
+COURSE|CSC 507|Course Title for CSC 507|3|D
+COURSE|CSC 513|Course Title for CSC 513|3|A
+COURSE|CSC 501|Course Title for CSC 501|3|F
+COURSE|CSC 509|Course Title for CSC 509|2|B
+COURSE|CSC 521|Course Title for CSC 521|3|E
+COURSE|CSC 503|Course Title for CSC 503|2|D
+COURSE|CSC 511|Course Title for CSC 511|2|D
+COURSE|CSC 515|Course Title for CSC 515|3|F
+END
+STUDENT|Tunde Johnson|067|Mechanical Engineering
+COURSE|MEE 509|Course Title for MEE 509|3|A
+COURSE|MEE 505|Course Title for MEE 505|2|A
+COURSE|MEE 513|Course Title for MEE 513|2|F
+COURSE|MEE 501|Course Title for MEE 501|3|C
+COURSE|MEE 511|Course Title for MEE 511|2|D
+COURSE|MEE 521|Course Title for MEE 521|3|E
+COURSE|MEE 503|Course Title for MEE 503|3|D
+COURSE|MEE 507|Course Title for MEE 507|2|E
+COURSE|MEE 515|Course Title for MEE 515|3|F
+END
+STUDENT|Abdulrahman Balogun|068|Mechanical Engineering
+COURSE|MEE 503|Course Title for MEE 503|2|A
+COURSE|MEE 521|Course Title for MEE 521|3|C
+COURSE|MEE 509|Course Title for MEE 509|3|D
+COURSE|MEE 511|Course Title for MEE 511|3|C
+COURSE|MEE 515|Course Title for MEE 515|2|E
+COURSE|MEE 501|Course Title for MEE 501|2|B
+COURSE|MEE 507|Course Title for MEE 507|2|F
+COURSE|MEE 505|Course Title for MEE 505|2|A
+COURSE|MEE 513|Course Title for MEE 513|2|D
+END
+STUDENT|Fatima Okoro|069|Business Administration
+COURSE|BUS 515|Course Title for BUS 515|3|F
+COURSE|BUS 513|Course Title for BUS 513|3|C
+COURSE|BUS 503|Course Title for BUS 503|2|A
+COURSE|BUS 505|Course Title for BUS 505|2|B
+COURSE|BUS 509|Course Title for BUS 509|2|E
+COURSE|BUS 501|Course Title for BUS 501|3|F
+COURSE|BUS 507|Course Title for BUS 507|3|F
+COURSE|BUS 521|Course Title for BUS 521|2|C
+COURSE|BUS 511|Course Title for BUS 511|3|A
+END
+STUDENT|David Adewale|070|Biochemistry
+COURSE|BCH 511|Course Title for BCH 511|2|E
+COURSE|BCH 513|Course Title for BCH 513|2|D
+COURSE|BCH 503|Course Title for BCH 503|3|A
+COURSE|BCH 521|Course Title for BCH 521|3|B
+COURSE|BCH 509|Course Title for BCH 509|3|C
+COURSE|BCH 515|Course Title for BCH 515|3|D
+COURSE|BCH 507|Course Title for BCH 507|2|C
+COURSE|BCH 505|Course Title for BCH 505|3|F
+COURSE|BCH 501|Course Title for BCH 501|2|F
+END
+STUDENT|Abdulrahman Danladi|071|Computer Science
+COURSE|CSC 501|Course Title for CSC 501|2|A
+COURSE|CSC 521|Course Title for CSC 521|3|A
+COURSE|CSC 515|Course Title for CSC 515|2|D
+COURSE|CSC 511|Course Title for CSC 511|2|A
+COURSE|CSC 505|Course Title for CSC 505|2|B
+COURSE|CSC 503|Course Title for CSC 503|3|C
+COURSE|CSC 513|Course Title for CSC 513|3|A
+COURSE|CSC 507|Course Title for CSC 507|3|E
+COURSE|CSC 509|Course Title for CSC 509|3|D
+END
+STUDENT|Emeka Mohammed|072|Mass Communication
+COURSE|MCM 501|Course Title for MCM 501|2|E
+COURSE|MCM 509|Course Title for MCM 509|2|D
+COURSE|MCM 515|Course Title for MCM 515|3|F
+COURSE|MCM 507|Course Title for MCM 507|2|E
+COURSE|MCM 521|Course Title for MCM 521|3|C
+COURSE|MCM 503|Course Title for MCM 503|2|F
+COURSE|MCM 513|Course Title for MCM 513|2|F
+COURSE|MCM 511|Course Title for MCM 511|2|E
+COURSE|MCM 505|Course Title for MCM 505|3|A
+END
+STUDENT|Ibrahim Adewale|073|Business Administration
+COURSE|BUS 511|Course Title for BUS 511|3|F
+COURSE|BUS 503|Course Title for BUS 503|2|B
+COURSE|BUS 509|Course Title for BUS 509|3|C
+COURSE|BUS 505|Course Title for BUS 505|2|D
+COURSE|BUS 515|Course Title for BUS 515|3|D
+COURSE|BUS 507|Course Title for BUS 507|2|B
+COURSE|BUS 501|Course Title for BUS 501|2|A
+COURSE|BUS 513|Course Title for BUS 513|3|D
+COURSE|BUS 521|Course Title for BUS 521|2|A
+END
+STUDENT|Chioma Danladi|074|Business Administration
+COURSE|BUS 515|Course Title for BUS 515|3|F
+COURSE|BUS 505|Course Title for BUS 505|2|F
+COURSE|BUS 521|Course Title for BUS 521|2|F
+COURSE|BUS 507|Course Title for BUS 507|3|F
+COURSE|BUS 513|Course Title for BUS 513|3|A
+COURSE|BUS 501|Course Title for BUS 501|2|C
+COURSE|BUS 503|Course Title for BUS 503|3|A
+COURSE|BUS 509|Course Title for BUS 509|2|C
+COURSE|BUS 511|Course Title for BUS 511|3|C
+END
+STUDENT|Chioma Ola|075|Biochemistry
+COURSE|BCH 521|Course Title for BCH 521|3|B
+COURSE|BCH 509|Course Title for BCH 509|3|E
+COURSE|BCH 503|Course Title for BCH 503|2|C
+COURSE|BCH 505|Course Title for BCH 505|2|C
+COURSE|BCH 513|Course Title for BCH 513|2|E
+COURSE|BCH 507|Course Title for BCH 507|2|F
+COURSE|BCH 515|Course Title for BCH 515|2|B
+COURSE|BCH 511|Course Title for BCH 511|3|F
+COURSE|BCH 501|Course Title for BCH 501|3|C
+END
+STUDENT|Bola Johnson|076|Biochemistry
+COURSE|BCH 501|Course Title for BCH 501|2|B
+COURSE|BCH 505|Course Title for BCH 505|2|E
+COURSE|BCH 503|Course Title for BCH 503|2|F
+COURSE|BCH 515|Course Title for BCH 515|2|B
+COURSE|BCH 507|Course Title for BCH 507|3|C
+COURSE|BCH 509|Course Title for BCH 509|3|A
+COURSE|BCH 521|Course Title for BCH 521|3|F
+COURSE|BCH 513|Course Title for BCH 513|2|E
+COURSE|BCH 511|Course Title for BCH 511|2|E
+END
+STUDENT|Abdulrahman Ola|077|Computer Science
+COURSE|CSC 501|Course Title for CSC 501|3|F
+COURSE|CSC 503|Course Title for CSC 503|2|F
+COURSE|CSC 505|Course Title for CSC 505|2|C
+COURSE|CSC 511|Course Title for CSC 511|3|B
+COURSE|CSC 509|Course Title for CSC 509|2|E
+COURSE|CSC 515|Course Title for CSC 515|2|B
+COURSE|CSC 513|Course Title for CSC 513|3|D
+COURSE|CSC 521|Course Title for CSC 521|3|C
+COURSE|CSC 507|Course Title for CSC 507|3|E
+END
+STUDENT|Emeka Ola|078|Mechanical Engineering
+COURSE|MEE 503|Course Title for MEE 503|2|E
+COURSE|MEE 501|Course Title for MEE 501|2|D
+COURSE|MEE 509|Course Title for MEE 509|3|C
+COURSE|MEE 505|Course Title for MEE 505|2|B
+COURSE|MEE 521|Course Title for MEE 521|3|D
+COURSE|MEE 515|Course Title for MEE 515|2|B
+COURSE|MEE 507|Course Title for MEE 507|3|B
+COURSE|MEE 513|Course Title for MEE 513|2|B
+COURSE|MEE 511|Course Title for MEE 511|3|C
+END
+STUDENT|Zainab Johnson|079|Mechanical Engineering
+COURSE|MEE 509|Course Title for MEE 509|3|D
+COURSE|MEE 513|Course Title for MEE 513|3|F
+COURSE|MEE 507|Course Title for MEE 507|3|B
+COURSE|MEE 511|Course Title for MEE 511|2|E
+COURSE|MEE 501|Course Title for MEE 501|3|C
+COURSE|MEE 505|Course Title for MEE 505|2|D
+COURSE|MEE 503|Course Title for MEE 503|2|F
+COURSE|MEE 515|Course Title for MEE 515|2|E
+COURSE|MEE 521|Course Title for MEE 521|2|F
+END
+STUDENT|Fatima Adewale|080|Electrical Engineering
+COURSE|EEE 513|Course Title for EEE 513|2|D
+COURSE|EEE 503|Course Title for EEE 503|3|A
+COURSE|EEE 521|Course Title for EEE 521|3|D
+COURSE|EEE 509|Course Title for EEE 509|2|D
+COURSE|EEE 515|Course Title for EEE 515|2|E
+COURSE|EEE 501|Course Title for EEE 501|3|C
+COURSE|EEE 505|Course Title for EEE 505|3|A
+COURSE|EEE 511|Course Title for EEE 511|2|C
+COURSE|EEE 507|Course Title for EEE 507|2|A
 END

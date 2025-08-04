@@ -1,0 +1,6 @@
+STUDENT|Abdulrahman Abdulrazaq|001|Computer Science
+COURSE|CSC 501|Computational Theory|3|A
+COURSE|CSC 503|SIWES|6|A
+END
+STUDENT|Abolaji Abdulrazaq|002|Computer Science
+END

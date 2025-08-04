@@ -4,6 +4,7 @@ import model.Student;
 import util.FileHelper;
 import util.DatabaseHelper;
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class StudentService {
@@ -77,6 +78,41 @@ public class StudentService {
         FileHelper.saveStudentsToFile(studentList);
         for (Student student : studentList) {
             saveStudentToDatabase(student);
+        }
+    }
+
+    public void searchStudentsByName(String searchName){
+        List<Student> found =new ArrayList<>();
+        for(Student student : studentList){
+            if(student.getName().toLowerCase().contains(searchName.toLowerCase())){
+                found.add(student);
+            }
+        }
+        if(found.isEmpty()){
+            System.out.println("No students found with name containing: "+ searchName);
+        }else{
+            System.out.println("Found "+ found.size()+" student(s):");
+            for(Student student : found){
+                student.printBioData();
+                System.out.println("-----------------------");
+            }
+        }
+    }
+    public void searchStudentsByDepartment(String department){
+        List<Student> found =new ArrayList<> ();
+        for(Student student : studentList){
+            if(student.getDepartment().toLowerCase().contains(department.toLowerCase())){
+                found.add(student);
+            }
+        }
+        if(found.isEmpty()){
+            System.out.println("No students found in department: "+ department);
+        }else{
+            System.out.println("Found "+ found.size()+" student(s) in "+ department +":");
+            for(Student student : found){
+                student.printBioData();
+                System.out.println("-----------------------");
+            }
         }
     }
 

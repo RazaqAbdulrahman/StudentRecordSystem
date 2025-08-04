@@ -1,5 +1,6 @@
 import model.Course;
 import model.Student;
+import service.StatisticsService;
 import service.StudentService;
 import service.GPAService;
 import util.DatabaseHelper;
@@ -21,6 +22,11 @@ public class Main {
             System.out.println("5. Calculate GPA");
             System.out.println("6. Enroll In Course");
             System.out.println("7. Sync from Database");
+            System.out.println("8. Search for Student");
+            System.out.println("9. View BioData");
+            System.out.println("10. Show Basic Statistics");
+            System.out.println("11. Import from file to DataBase");
+
             //System.out.println("8. Update Student Grade");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
@@ -130,9 +136,48 @@ public class Main {
 
                     studentService.updateGrade(matricNum, courseCode, newGradeVal);
                     break;
-
  */
+                case 8:
+                   System.out.println("1. Search by Name");
+                   System.out.println("2. Search by Department");
+                   System.out.print("Choose search type: ");
+                   int searchChoice = input.nextInt();
+                   input.nextLine();
 
+                   if(searchChoice ==1){
+                    System.out.print("Enter name to search: ");
+                    String searchName = input.nextLine();
+                    studentService.searchStudentsByName(searchName);
+                   } else if(searchChoice ==2){
+                    System.out.print("Enter department to search: ");
+                    String searchDept = input.nextLine();
+                    studentService.searchStudentsByDepartment(searchDept);
+                   }
+                   break;
+
+                case 9:
+                   System.out.print("Enter matric number to view full profile: ");
+                   String profileMatric = input.nextLine();
+                   Student profileStudent = studentService.findByMatricNumber(profileMatric);
+
+                   if(profileStudent !=null){
+                       profileStudent.displayFullProfile();
+
+                   } else {
+                       System.out.println("Student not found.");
+                   }
+                   break;
+
+                case 10:
+                StatisticsService statsService = new StatisticsService(studentService.getStudentList());
+                statsService.showBasicStatistics();
+                break;
+
+                case 11:
+                    studentService = new StudentService();
+                    studentService.saveChanges();
+                    System.out.println("Imported all students from file to database");
+                    break;
 
                 case 0:
                     System.out.println("Exiting program. Goodbye!");

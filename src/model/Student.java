@@ -14,7 +14,6 @@ public class Student {
         this.courses = new ArrayList<>();
     }
 
-
     public String getName() {
         return name;
     }
@@ -53,6 +52,31 @@ public class Student {
                 System.out.println(c);
             }
         }
+    }
+
+    public void displayFullProfile (){
+        System.out.println("========== STUDENT PROFILE ==========");
+        printBioData();
+        System.out.println("Courses Enrolled:");
+
+        if(courses.isEmpty()){
+            System.out.println("  No courses enrolled yet.");
+
+        } else {
+            System.out.printf("%-12s %-25s %-6s %-8s%n","Course Code","Course Title","Units","Grade");
+            System.out.println("---------------------------------------------------------------");
+            for(Course course : courses){
+                System.out.printf("%-12s %-25s %-6d %-8s%n",
+                        course.getCourseCode(),
+                        course.getTitle(),
+                        course.getUnit(),
+                        course.getGrade());
+            }
+            int totalUnits = courses.stream().mapToInt(Course::getUnit).sum();
+            System.out.println("---------------------------------------------------------------");
+            System.out.println("Total Units: "+ totalUnits);
+        }
+        System.out.println("=====================================");
     }
 
     @Override
