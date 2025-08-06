@@ -4,6 +4,8 @@ import service.StatisticsService;
 import service.StudentService;
 import service.GPAService;
 import util.DatabaseHelper;
+import util.ValidationUtil;
+
 import java.util.Scanner;
 
 public class Main {
@@ -12,6 +14,7 @@ public class Main {
         StudentService studentService = new StudentService();
         GPAService gpaService = new GPAService();
         DatabaseHelper.initializeDatabase();
+
 
         while (true) {
             System.out.println("\n--- Student Record Management System ---");
@@ -38,8 +41,17 @@ public class Main {
                 case 1:
                     System.out.print("Enter name: ");
                     String name = input.nextLine();
+                    while (!ValidationUtil.isValidName(name)) {
+                        System.out.print("Invalid name. Please re-enter: ");
+                        name = input.nextLine();
+                    }
+
                     System.out.print("Enter department: ");
                     String dept = input.nextLine();
+                    while (!ValidationUtil.isValidDepartment(dept)) {
+                        System.out.print("Invalid department. Please re-enter: ");
+                        dept = input.nextLine();
+                    }
 
                     /*
                     System.out.print("Click enter to generate unique Matric Number: ");
@@ -71,6 +83,10 @@ public class Main {
                 case 4:
                     System.out.print("Enter matric number: ");
                     String matric = input.nextLine();
+                    while (!ValidationUtil.isValidDepartment(matric)) {
+                        System.out.print("Invalid Matric Number. Please re-enter: ");
+                        matric = input.nextLine();
+                    }
                     studentService.updateStudentGradesInteractively(matric, input);
                     break;
 

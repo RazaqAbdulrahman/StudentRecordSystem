@@ -889,3 +889,4 @@ COURSE|BUS 509|Course Title for BUS 509|2|A
 COURSE|BUS 511|Course Title for BUS 511|3|A
 COURSE|BUS 515|Course Title for BUS 515|3|A
 END
+
