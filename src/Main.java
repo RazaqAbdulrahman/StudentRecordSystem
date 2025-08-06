@@ -84,10 +84,6 @@ public class Main {
                 case 4:
                     System.out.print("Enter matric number: ");
                     String matric = input.nextLine();
-                    while (!ValidationUtil.isValidDepartment(matric)) {
-                        System.out.print("Invalid Matric Number. Please re-enter: ");
-                        matric = input.nextLine();
-                    }
                     studentService.updateStudentGradesInteractively(matric, input);
                     break;
 
