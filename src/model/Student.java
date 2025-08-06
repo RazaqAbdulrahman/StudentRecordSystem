@@ -89,5 +89,15 @@ public class Student {
         System.out.println("Matric Number: " + matricNumber);
         System.out.println("Department: " + department);
     }
+
+    /*
+    public void setMatricNumber(String newMatric) {
+    }
+     */
+
+    public void setMatricNumber(String matricNumber) {
+        this.matricNumber = matricNumber;
+    }
+
 }
 

@@ -38,12 +38,18 @@ public class Main {
                 case 1:
                     System.out.print("Enter name: ");
                     String name = input.nextLine();
-                    System.out.print("Enter matric number: ");
-                    String matric = input.nextLine();
                     System.out.print("Enter department: ");
                     String dept = input.nextLine();
 
-                    Student student = new Student(name, matric, dept);
+                    /*
+                    System.out.print("Click enter to generate unique Matric Number: ");
+                    String matric = input.nextLine();
+                     */
+
+                    Student student = new Student
+                                    (name,
+                                    null,
+                                    dept);
                     studentService.addStudent(student);
                     break;
 
@@ -63,6 +69,14 @@ public class Main {
                     break;
 
                 case 4:
+                    System.out.print("Enter matric number: ");
+                    String matric = input.nextLine();
+                    studentService.updateStudentGradesInteractively(matric, input);
+                    break;
+
+
+                /*
+                    case 4:
                     System.out.print("Enter matric number: ");
                     String matUpdate = input.nextLine();
                     Student updateStudent = studentService.findByMatricNumber(matUpdate);
@@ -84,6 +98,7 @@ public class Main {
                         System.out.println("Student not found.");
                     }
                     break;
+                 */
 
                 case 5:
                     System.out.print("Enter matric number: ");
@@ -118,10 +133,13 @@ public class Main {
                         System.out.println("Student not found.");
                     }
                     break;
+
                 case 7:
                     studentService.syncFromDatabase();
                     System.out.println("Synced from database.");
                     break;
+
+
 
 /*
                 case 8:
