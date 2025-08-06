@@ -158,6 +158,8 @@ public class Main {
 
 
 /*
+
+                initial grade update ---
                 case 8:
                     System.out.print("Enter Matric: ");
                     String matricNum = input.nextLine();
