@@ -54,6 +54,7 @@ public class Main {
                     }
 
                     /*
+                    initial matric generation ---
                     System.out.print("Click enter to generate unique Matric Number: ");
                     String matric = input.nextLine();
                      */
