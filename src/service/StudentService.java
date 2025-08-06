@@ -164,13 +164,13 @@ public class StudentService {
             return false;
         }
 
-        System.out.println("\n📋 Current Courses for " + student.getName() + ":\n");
+        System.out.println("\n Current Courses for " + student.getName() + ":\n");
         for (int i = 0; i < courses.size(); i++) {
             Course c = courses.get(i);
             System.out.printf("%d. %s - %s (%d units) | Grade: %s%n", i + 1, c.getCourseCode(), c.getTitle(), c.getUnit(), c.getGrade());
         }
 
-        System.out.println("\n📝 Enter new grades or press Enter to skip:");
+        System.out.println("\n Enter new grades or press Enter to skip:");
 
         for (Course course : courses) {
             System.out.print("New grade for " + course.getCourseCode() + " (" + course.getTitle() + "): ");

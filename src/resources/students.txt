@@ -890,13 +890,13 @@ COURSE|BUS 511|Course Title for BUS 511|3|A
 COURSE|BUS 515|Course Title for BUS 515|3|A
 END
 STUDENT|Gbeminiyi Agbaje|082|Computer Science
-COURSE|CSC 501|Course Title for CSC 501|3|N/A
-COURSE|CSC 513|Course Title for CSC 513|2|N/A
-COURSE|CSC 509|Course Title for CSC 509|2|N/A
-COURSE|CSC 507|Course Title for CSC 507|2|N/A
-COURSE|CSC 521|Course Title for CSC 521|3|N/A
-COURSE|CSC 515|Course Title for CSC 515|2|N/A
-COURSE|CSC 505|Course Title for CSC 505|3|N/A
-COURSE|CSC 511|Course Title for CSC 511|2|N/A
-COURSE|CSC 503|Course Title for CSC 503|2|N/A
+COURSE|CSC 501|Course Title for CSC 501|3|A
+COURSE|CSC 513|Course Title for CSC 513|2|B
+COURSE|CSC 509|Course Title for CSC 509|2|A
+COURSE|CSC 507|Course Title for CSC 507|2|B
+COURSE|CSC 521|Course Title for CSC 521|3|A
+COURSE|CSC 515|Course Title for CSC 515|2|B
+COURSE|CSC 505|Course Title for CSC 505|3|A
+COURSE|CSC 511|Course Title for CSC 511|2|B
+COURSE|CSC 503|Course Title for CSC 503|2|A
 END
